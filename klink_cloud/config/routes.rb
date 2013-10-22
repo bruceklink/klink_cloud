@@ -54,4 +54,6 @@ KlinkCloud::Application.routes.draw do
   #     resources :products
   #   end
   get("/home", { :controller => "base", :action => "screen"})
+  get("/upload", { :controller => "base", :action => "posts"})
+  get("/manage", { :controller => "base", :action => "contacts"})
 end

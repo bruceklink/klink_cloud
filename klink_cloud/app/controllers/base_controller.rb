@@ -1,4 +1,8 @@
 class BaseController < ApplicationController
-	def screen
+	def screen 
 	end
+	def posts
+	end
+	def contacts
+	end	
 end
