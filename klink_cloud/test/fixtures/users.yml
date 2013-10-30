@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  user_pw: MyString
+  fb_enab: false
+  fb_un: MyString
+  fb_pw: MyString
+  tw_enab: false
+  tw_un: MyString
+  tw_pw: MyString
+
+two:
+  user_id: 1
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  user_pw: MyString
+  fb_enab: false
+  fb_un: MyString
+  fb_pw: MyString
+  tw_enab: false
+  tw_un: MyString
+  tw_pw: MyString
