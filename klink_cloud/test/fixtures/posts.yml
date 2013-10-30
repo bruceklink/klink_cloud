@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  category_id: 1
+  network_id: 1
+  friend_id: 1
+  comment: MyText
+  link_url: MyString
+  image_url: MyString
+  date_posted: 2013-10-30
+  time_posted: 2013-10-30 02:58:34
+  upload: false
+  external: false
+  views: 1
+  interactions: 1
+
+two:
+  user_id: 1
+  category_id: 1
+  network_id: 1
+  friend_id: 1
+  comment: MyText
+  link_url: MyString
+  image_url: MyString
+  date_posted: 2013-10-30
+  time_posted: 2013-10-30 02:58:34
+  upload: false
+  external: false
+  views: 1
+  interactions: 1

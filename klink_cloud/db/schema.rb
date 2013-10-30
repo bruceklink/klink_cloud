@@ -11,7 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131030072052) do
+ActiveRecord::Schema.define(version: 20131030075834) do
+
+  create_table "posts", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "category_id"
+    t.integer  "network_id"
+    t.integer  "friend_id"
+    t.text     "comment"
+    t.string   "link_url"
+    t.string   "image_url"
+    t.date     "date_posted"
+    t.time     "time_posted"
+    t.boolean  "upload"
+    t.boolean  "external"
+    t.integer  "views"
+    t.integer  "interactions"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.integer  "user_id"
